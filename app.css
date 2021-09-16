@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body ,input ,select,label,h1,h2,h3,h4,h5,h6,p,nav,div {
+  font-family: 'Cairo', sans-serif !important;
+}
+
+:root {
+
+  --one: #28419e;
+  --tow:#fff;
+  --three:#000;
+  --four:#ef3025;
+  --discount: rgb(178, 184, 202);
+  --cairo: Cairo, sans-serif;
+
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: inherit;
+}
+
+html {
+font-size: 62.5%;
+box-sizing: border-box;
+}
+
+body,
+input {
+font-size: 1.6rem;
+font-weight: 400;
+color: #212121;
+font-family: var(--cairo);
+}
+
+a {
+text-decoration: none !important;
+}
+
+ul {
+list-style: none;
+}
+
+img {
+max-width: 100%;
+}
+
+h3,
+h4 {
+font-weight: 500;
+}
+
+a:hover {
+color: #fff;
+}

@@ -3,6 +3,10 @@
     <div>
           <appheader v-on:close="close"   v-on:open="open" :width_vue="width_vue" :left_vue="left_vue"/>
 
+
+
+          
+
    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -41,6 +45,97 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<!-- news -->
+
+
+ <div class="container" style="max-width: 123rem;   padding-bottom: 30px; ">
+                <h1 class="about_h1" style="padding-top: 70px;">آخر الأخبار</h1>
+
+         <div class="all_card">
+            <div class="card">
+         <div class="news-card__content-inner"><time datetime="2021-09-07" class="news-card__date">
+                                سبتمبر 07, 2021
+                            </time> <h3 class="news-card__title"><a >انهاء الاعتصام بميناء الحريقة النفطي وعودة عمليات تصدير الخام الى طبيعتها</a></h3> <!----></div>
+
+    </div>
+
+      <div class="card">
+         <div class="news-card__content-inner"><time datetime="2021-09-07" class="news-card__date">
+                                سبتمبر 07, 2021
+                            </time> <h3 class="news-card__title"><a >انهاء الاعتصام بميناء الحريقة النفطي وعودة عمليات تصدير الخام الى طبيعتها</a></h3> <!----></div>
+
+    </div>
+
+       <div class="card">
+         <div class="news-card__content-inner"><time datetime="2021-09-07" class="news-card__date">
+                                سبتمبر 07, 2021
+                            </time> <h3 class="news-card__title"><a >انهاء الاعتصام بميناء الحريقة النفطي وعودة عمليات تصدير الخام الى طبيعتها</a></h3> <!----></div>
+
+    </div>
+
+      <div class="card">
+         <div class="news-card__content-inner"><time datetime="2021-09-07" class="news-card__date">
+                                سبتمبر 07, 2021
+                            </time> <h3 class="news-card__title"><a >انهاء الاعتصام بميناء الحريقة النفطي وعودة عمليات تصدير الخام الى طبيعتها</a></h3> <!----></div>
+
+    </div>
+
+    <div class="card">
+         <div class="news-card__content-inner"><time datetime="2021-09-07" class="news-card__date">
+                                سبتمبر 07, 2021
+                            </time> <h3 class="news-card__title"><a >انهاء الاعتصام بميناء الحريقة النفطي وعودة عمليات تصدير الخام الى طبيعتها</a></h3> <!----></div>
+
+    </div>
+
+
+    <div class="card">
+         <div class="news-card__content-inner"><time datetime="2021-09-07" class="news-card__date">
+                                سبتمبر 07, 2021
+                            </time> <h3 class="news-card__title"><a >انهاء الاعتصام بميناء الحريقة النفطي وعودة عمليات تصدير الخام الى طبيعتها</a></h3> <!----></div>
+
+    </div>
+
+
+    <div class="card">
+         <div class="news-card__content-inner"><time datetime="2021-09-07" class="news-card__date">
+                                سبتمبر 07, 2021
+                            </time> <h3 class="news-card__title"><a >انهاء الاعتصام بميناء الحريقة النفطي وعودة عمليات تصدير الخام الى طبيعتها</a></h3> <!----></div>
+
+    </div>
+
+
+    <div class="card">
+         <div class="news-card__content-inner"><time datetime="2021-09-07" class="news-card__date">
+                                سبتمبر 07, 2021
+                            </time> <h3 class="news-card__title"><a >انهاء الاعتصام بميناء الحريقة النفطي وعودة عمليات تصدير الخام الى طبيعتها</a></h3> <!----></div>
+
+    </div>
+
+    <div class="card">
+         <div class="news-card__content-inner"><time datetime="2021-09-07" class="news-card__date">
+                                سبتمبر 07, 2021
+                            </time> <h3 class="news-card__title"><a >انهاء الاعتصام بميناء الحريقة النفطي وعودة عمليات تصدير الخام الى طبيعتها</a></h3> <!----></div>
+
+    </div>
+
+    <div class="card">
+         <div class="news-card__content-inner"><time datetime="2021-09-07" class="news-card__date">
+                                سبتمبر 07, 2021
+                            </time> <h3 class="news-card__title"><a >انهاء الاعتصام بميناء الحريقة النفطي وعودة عمليات تصدير الخام الى طبيعتها</a></h3> <!----></div>
+
+    </div>
+         </div>
+
+            </div>
+            <div  class="container" style="max-width: 119rem;text-align: end">
+                       <button class="btn btn-primary" style="font-size: 13px;
+    margin-bottom: 40px;" >عرض الكل</button>
+
+            </div>
+
+
+
               <appfooter/>
 
     </div>
@@ -92,5 +187,73 @@ methods: {
 .carousel-caption{
 margin-bottom: 80px;
 
+}
+
+
+/* news */
+
+.about_h1 {
+   color: var(--three);
+   font-family: var(--cairo);
+   font-weight: bold;
+   font-size: 2.3rem;
+   text-align: center;
+   padding-bottom: 30px;
+   padding-top: 70px;
+    text-align: end;
+    padding-bottom: 48px;
+}
+
+.about_p {
+    color: var(--one);
+  font-family: var(--cairo);
+  text-align: center;
+    padding-bottom: 30px;
+  font-size: 1.7rem;
+  direction: rtl;
+  }
+
+  .card {
+     border: none !important;
+
+}
+
+.all_card {
+ display: grid;
+ grid-template-columns:repeat(auto-fit,minmax(20rem,1fr)) ;
+ gap: 1.5rem;
+ padding-right: 20px;
+ padding-left: 20px;
+ direction: rtl;
+}
+
+.card-text {
+    font-size: 1.7rem;
+    color: var(--tow);
+    background-color: var(--one);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.8rem 3rem;
+    font-family: var(--cairo);
+}
+
+.card:before {
+   width: 37px;
+    height: .3125rem;
+    content: "";
+    display: block;
+    background: #00a3e0;
+    position: absolute;
+    top: -14px;
+}
+
+.news-card__title {
+padding: 5px 0px 20px 20px;
+    color: var(--one);
+
+}
+
+.news-card__data {
+font-size: 15px;
 }
 </style>

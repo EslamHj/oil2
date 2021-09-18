@@ -2,7 +2,7 @@
       <div></div>
 
   <header id="header" class="header">
-    <div id="app" class="navigation">
+    <div id="app" class="navigation" :class="{change_color: scrollPosition > 50}">
       <div class="container" style="max-width: 127rem;;">
         <div class="menu" :style="{ width: width_vue, right: right_vue }" >
           <div class="menu__top">
@@ -23,7 +23,7 @@
    
               
 <li class="nav-item" >
-          <a class="link_nano nav-link active" aria-current="page" style="color: var(--tow);font-size: 15px; font-weight: bold;" >الرئيسية</a>
+          <a class="link_nano nav-link active"  aria-current="page" style="color: var(--tow);font-size: 15px; font-weight: bold;" >الرئيسية</a>
         </li>
 
 
@@ -36,9 +36,9 @@
         </button>
         <div class="collapse " id="list-collapse">
           <ul class="list-unstyled fw-normal pb-1 small">
-            <li><a class="dropdown-item" href="#" style="color: var(--tow);" >كلمة رئيس مجلس الإدارة </a></li>
-            <li><a class="dropdown-item" href="#" style="color: var(--tow);" >لمحة عن المؤسسة </a></li>
-            <li><a class="dropdown-item" href="#" style="color: var(--tow);" >مجلس الإدارة </a></li>
+            <li><a class="dropdown-item dr" href="#" style="color: var(--tow);" >كلمة رئيس مجلس الإدارة </a></li>
+            <li><a class="dropdown-item dr" href="#" style="color: var(--tow);" >لمحة عن المؤسسة </a></li>
+            <li><a class="dropdown-item dr" href="#" style="color: var(--tow);" >مجلس الإدارة </a></li>
           </ul>
         </div>
       </li>
@@ -52,10 +52,10 @@
         <div class="collapse " id="change-collapse">
           <ul class="list-unstyled fw-normal pb-1 small">
                         <li><a class="dropdown-item" href="#" style="color: var(--tow);" >شركات مملوكة </a></li>
-            <li><a class="dropdown-item" href="#" style="color: var(--tow);" >شركات مشاركة </a></li>
-            <li><a class="dropdown-item" href="#" style="color: var(--tow);" >شركات مقاسمة </a></li>
-            <li><a class="dropdown-item" href="#" style="color: var(--tow);" >شركات إمتياز </a></li>
-            <li><a class="dropdown-item" href="#" style="color: var(--tow);" >مراكز ومعاهد </a></li>
+            <li><a class="dropdown-item dr" href="#" style="color: var(--tow);" >شركات مشاركة </a></li>
+            <li><a class="dropdown-item dr" href="#" style="color: var(--tow);" >شركات مقاسمة </a></li>
+            <li><a class="dropdown-item dr" href="#" style="color: var(--tow);" >شركات إمتياز </a></li>
+            <li><a class="dropdown-item dr" href="#" style="color: var(--tow);" >مراكز ومعاهد </a></li>
 
           </ul>
         </div>
@@ -121,11 +121,11 @@
        
 
 <li class="nav-item">
-          <a class="lk nav-link active" aria-current="page" href="#">الرئيسية</a>
+          <a class="lk nav-link active" :class="{nav__link_scroll :scrollPosition >50}" aria-current="page" href="#">الرئيسية</a>
         </li>
 
         <li class="nav-item dropdown ">
-          <a class=" lk nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class=" lk nav-link dropdown-toggle" :class="{nav__link_scroll :scrollPosition >50}" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               نبذه عن المؤسسة 
           </a>
           <ul class="dropdown-menu list" aria-labelledby="navbarDropdownMenuLink">
@@ -142,7 +142,7 @@
 
 
  <li class="nav-item dropdown">
-          <a class=" lk nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class=" lk nav-link dropdown-toggle" :class="{nav__link_scroll :scrollPosition >50}" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 شركاتنا 
 
           </a>
@@ -162,16 +162,16 @@
 
 
 <li class="nav-item">
-          <a class=" lk nav-link active" aria-current="page" href="#">أعمالنا </a>
+          <a class=" lk nav-link active" :class="{nav__link_scroll :scrollPosition >50}"  aria-current="page" href="#">أعمالنا </a>
         </li>
 
 
     <li class="nav-item">
-          <a class="lk nav-link active" aria-current="page" href="#">الأخبار </a>
+          <a class="lk nav-link active" :class="{nav__link_scroll :scrollPosition >50}" aria-current="page" href="#">الأخبار </a>
         </li>
 
          <li class="nav-item">
-          <a class="lk nav-link active" aria-current="page" href="#">اتصل بنا </a>
+          <a class="lk nav-link active" :class="{nav__link_scroll :scrollPosition >50}" aria-current="page" href="#">اتصل بنا </a>
         </li>
 
 
@@ -186,7 +186,7 @@
 
           
           </div>
-            <div class="icon_left" style="display: flex;">
+            <div class="icon_left"  style="display: flex;">
 
 
 
@@ -197,12 +197,12 @@
     font-size: 25px;    
 "></i>  -->
 
-                                <i class="fas fa-search" style="color: var(--tow);
+                                <i class="fas fa-search" :class="{nav__link_scroll :scrollPosition >50}" style="color: var(--tow);
     font-size: 19px;
     padding-right: 15px;padding-left: 10px;
 "></i>
 
-    <a style="color: var(--tow);border-right: 2px solid;
+    <a :class="{nav__link_scroll :scrollPosition >50}"  style="color: var(--tow);border-right: 2px solid;
     font-weight: bold;    padding-right: 10px;
 ">عربي</a>
               
@@ -226,7 +226,7 @@
 <script>
 export default {
 
-  props:['width_vue','right_vue','dis'],
+  props:['width_vue','right_vue','dis','scrollPosition'],
   data: function() {
     return {
      
@@ -345,7 +345,7 @@ text-align: end;
 }
 
 .menu {
- background-color: var(--one);
+ background-color:#3a9068;
   height: 103%;
   transition: all 0.3s ease-in-out;
   position: fixed;
@@ -369,6 +369,11 @@ overflow-y: auto;
 .nav__link {
   color: var(--tow);
   font-weight: bold;
+}
+
+.nav__link_scroll {
+    color: #3a9068 !important;
+
 }
 
 .menu .nav__item {
@@ -593,7 +598,7 @@ transform: translate(93px, 36px) !important;  }
   .dropdown-item:focus {
        border: none;
      box-shadow: none;
-     background-color: var(--four) !important;
+     background-color: #3a9068 !important;
      color: var(--tow) !important;
      
   }
@@ -601,7 +606,7 @@ transform: translate(93px, 36px) !important;  }
   .dropdown-item:hover {
        border: none;
      box-shadow: none;
-     background-color: var(--four) !important;
+     background-color: #3a9068 !important;
      color: var(--tow) !important;
   }
 
@@ -637,15 +642,15 @@ transform: translate(93px, 36px) !important;  }
 }
 
 .lk:hover {
-  color: var(--four) !important;
+  color: #73c39e !important;
 }
 
 .lk:focus {
-  color: var(--four) !important;
+  color:#73c39e !important;
 }
 .link_nano:hover {
-  background-color: var(--four) !important;
-    color: var(--tow) !important;
+  background-color: var(--tow) !important;
+    color: #3a9068 !important;
     margin-left: 9px;
 }
 
@@ -655,7 +660,13 @@ transform: translate(93px, 36px) !important;  }
 
 
 @media(max-width:800px){
-  
+    .dropdown-item:focus {
+      background-color: var(--tow) !important;
+    color: #3a9068 !important;
+
+  }
+
+
 
   .navigation{
       border: none;
@@ -684,5 +695,9 @@ transform: translate(93px, 36px) !important;  }
 
 
 
+}
+
+.change_color {
+background-color: #fff !important;
 }
 </style>

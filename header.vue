@@ -3,7 +3,7 @@
 
   <header id="header" class="header">
     <div id="app" class="navigation">
-      <div class="container" style="max-width: 127rem;;">
+      <div class="container" style="max-width: 127rem;">
         <div class="menu" :style="{ width: width_vue, right: right_vue }" >
           <div class="menu__top">
             <a v-show=" !bransh"  @click="close()" class="close__toggle ">

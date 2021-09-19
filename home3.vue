@@ -25,6 +25,21 @@
         </div>
       </div>
     </section>
+               
+
+          <!-- لمحة سريعة بالأرفام -->
+
+    <section class="container">
+
+  <div class="key-facts-icons"><h4 class="key-facts-icons__heading">لمحة سريعة بالأرفام</h4> <div class="key-facts-icons__container "><div class="key-facts-icons__wrapper "><div class="key-facts-icons__icon-wrapper"><i aria-hidden="true" class="key-facts-icons__icon icon--antenna"></i></div> <div class="key-facts-icons__content-wrapper"><div class="key-facts-icons__figure">50 عاماً</div> <p class="key-facts-icons__description">من الخبرة</p></div> <div class="key-facts-icons__cta-wrapper"><a class="key-facts-icons__cta cta__secondary--negative">
+                             نبذة عامة
+                            </a></div></div> <div class="key-facts-icons__wrapper "><div class="key-facts-icons__icon-wrapper"><i aria-hidden="true" class="key-facts-icons__icon icon--barrel"></i></div> <div class="key-facts-icons__content-wrapper"><div class="key-facts-icons__figure">336.87 مليار</div> <p class="key-facts-icons__description">تدير الشركة 200 مليار برميل من النفط  </p></div> <div class="key-facts-icons__cta-wrapper"><a class="key-facts-icons__cta cta__secondary--negative">
+                            المنتجات
+                            </a></div></div> <div class="key-facts-icons__wrapper "><div class="key-facts-icons__icon-wrapper"><i aria-hidden="true" class="key-facts-icons__icon icon--workforce"></i></div> <div class="key-facts-icons__content-wrapper"><div class="key-facts-icons__figure">30,000+</div> <p class="key-facts-icons__description">عدد الموظفين</p></div> <div class="key-facts-icons__cta-wrapper"><a  class="key-facts-icons__cta cta__secondary--negative">
+                            التوظيف في المؤسسة الوطنية للنفط
+                            </a></div></div></div></div>
+
+    </section>
 
     <appfooter3/>
 
@@ -194,5 +209,66 @@ mounted() {
 
 }
 
+
+ /* لمحة سريعة بالأرفام  */
+
+ .key-facts-icons__container {
+    margin-bottom: 2.1875rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 39px;
+}
+
+.key-facts-icons {
+    padding: 0 1.25rem 1.875rem;
+background: linear-gradient( 
+85deg,#e8ab83,#8c5c37);
+    text-align: center;
+    direction: rtl;
+    margin-bottom: 45px;
+}
+
+.key-facts-icons__heading {
+font-size: 10px;
+    padding: .625rem 0;
+    width: 16rem;
+    background: rgba(0,0,0,.3);
+    margin: 0 auto;
+      color: #fff;
+
+}
+
+.key-facts-icons__wrapper {
+    border: 0;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 33.3333333333%;
+}
+.key-facts-icons__icon-wrapper {
+    margin-bottom: .625rem;
+    width: 100%;
+}
+.key-facts-icons__content-wrapper {
+    width: 100%;
+    color: #fff;
+}
+.key-facts-icons__cta-wrapper {
+    margin-top: 1.875rem;
+    width: 100%;
+    
+}
+
+.cta__secondary--negative {
+    font-size: 12px;
+    letter-spacing: .010625rem;
+    padding: .625rem 2.5rem;
+    display: inline-block;
+    border: 0;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+}
 
 </style>

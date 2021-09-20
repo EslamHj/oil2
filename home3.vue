@@ -13,19 +13,105 @@
               <div class="login_create_account">
                 <!-- <router-link class="btn login" to="/login">تسجيل الدخول</router-link> -->
 
-                <router-link class="btn create_account" to="/createAccount"> المزيد
-                </router-link>
+                <a class="btn create_account" > المزيد
+                </a>
               </div>
             </div>
 
             <div class="image">
-              <img src="/home.png" alt="" />
+              <img src="/ol.jpg" alt="" />
             </div>
+
+            
           </div>
         </div>
       </div>
     </section>
-               
+
+  
+     
+    <!-- news -->
+                            
+        <div class="nr-list__wrap container" style="direction: rtl ; margin-bottom: 100px;">
+
+            
+            
+                            <h1  class="about_h1" >آخر الأخبار</h1>
+
+            
+                <ul class="nr-list__item-wrap js-list-wrap" data-resultmsg="No items found">
+                  <li class="nr-list__item">
+                    <a  class="nr-lazy-size__wrapper nr-list__thumbnail">
+                               <img src="/Hima.jpeg" alt="">
+                        </a>
+                    <div class="nr-list__info">
+                      <div class="nr-list__info-description">
+                            7 September 2021
+                        </div>
+                      <p>المهندس مصطفى صنع الله يجتمع بالنائب صالح همة</p>
+                        <a  class="nr-list__info-title">
+استقبل السيد رئيس مجلس الإدارة المهندس مصطفى صنع الله يوم الخميس الموافق 16 سبتمبر 2021 بالمقر الرئيسي للمؤسسة الوطنية للنفط بطرابلس، النائب صالح همة.
+حيث تم خلال هذا الاجتماع مناقشة العديد من النقاط، وفي مقدمتها، امكانية تنفيذ المؤسسة لبرامج التنمية المكانية بمنطقة العوينات، وتدريب الشباب بها.                        </a>
+                        
+                    </div>
+                </li>
+                
+                
+                
+                
+                  <li class="nr-list__item">
+                    <a  class="nr-lazy-size__wrapper nr-list__thumbnail">
+                               <img src="/Hima.jpeg" alt="">
+                        </a>
+                    <div class="nr-list__info">
+                      <div class="nr-list__info-description">
+                            7 September 2021
+                        </div>
+                      <p>المهندس مصطفى صنع الله يجتمع بالنائب صالح همة</p>
+                        <a  class="nr-list__info-title">
+استقبل السيد رئيس مجلس الإدارة المهندس مصطفى صنع الله يوم الخميس الموافق 16 سبتمبر 2021 بالمقر الرئيسي للمؤسسة الوطنية للنفط بطرابلس، النائب صالح همة.
+حيث تم خلال هذا الاجتماع مناقشة العديد من النقاط، وفي مقدمتها، امكانية تنفيذ المؤسسة لبرامج التنمية المكانية بمنطقة العوينات، وتدريب الشباب بها.                        </a>
+                        
+                    </div>
+                </li>
+
+
+
+
+
+                  <li class="nr-list__item">
+                    <a  class="nr-lazy-size__wrapper nr-list__thumbnail">
+                               <img src="/Hima.jpeg" alt="">
+                        </a>
+                    <div class="nr-list__info">
+                      <div class="nr-list__info-description">
+                            7 September 2021
+                        </div>
+                      <p>المهندس مصطفى صنع الله يجتمع بالنائب صالح همة</p>
+                        <a  class="nr-list__info-title">
+استقبل السيد رئيس مجلس الإدارة المهندس مصطفى صنع الله يوم الخميس الموافق 16 سبتمبر 2021 بالمقر الرئيسي للمؤسسة الوطنية للنفط بطرابلس، النائب صالح همة.
+حيث تم خلال هذا الاجتماع مناقشة العديد من النقاط، وفي مقدمتها، امكانية تنفيذ المؤسسة لبرامج التنمية المكانية بمنطقة العوينات، وتدريب الشباب بها.                        </a>
+                        
+                    </div>
+                </li>
+                
+                
+                
+                
+                </ul>
+            
+        </div>
+
+         <div  class="container" style="max-width: 114rem;
+    text-align: end;
+    margin-top: -75px;">
+                       <button class="btn btn-primary" style="font-size: 13px;
+    margin-bottom: 85px;" >عرض الكل</button>
+
+            </div>
+       
+    
+           
 
           <!-- لمحة سريعة بالأرفام -->
 
@@ -46,7 +132,12 @@
 </template>
 
 
+
+
+
 <script>
+
+
 import appheader3 from '../components/header3.vue'
 import appfooter3 from '../components/footer3.vue'
 export default {
@@ -95,6 +186,7 @@ mounted() {
 <style scoped>
 
 
+
 .home .home-slider .slide {
   display: flex;
   align-items: center;
@@ -117,12 +209,12 @@ mounted() {
 
 .home .home-slider .slide .content h3 {
   font-family: "Kaushan Script", cursive;
-  color: #41210a;
+  color: #34495e;
   font-size: 4rem;
 }
 
 .home .home-slider .slide .content p {
-  color: #41210a;
+  color: #34495e;
   font-size: 2.2rem;
   padding: 2.5rem 0;
   line-height: 1.5;
@@ -134,11 +226,18 @@ mounted() {
   display: inline-block;
   font-size: 1.7rem;
   color: var(--tow);
-  background-color: #41210a;
+  background-color: #34495e;
   border-radius: 0.5rem;
   cursor: pointer;
   padding: 0.8rem 3rem;
   font-family: var(--cairo);
+}
+
+.create_account:hover {
+    color: #34495e !important;
+  background-color: #fff !important;
+  border: 2px solid #34495e !important;
+
 }
 
 .login {
@@ -146,7 +245,7 @@ mounted() {
   display: inline-block;
   font-size: 1.7rem;
   color: var(--tow);
-  background-color: #41210a;
+  background-color: #34495e;
   border-radius: 0.5rem;
   cursor: pointer;
   padding: 0.8rem 3rem;
@@ -157,7 +256,7 @@ mounted() {
 .btn:hover {
   background-color: var(--tow);
   color: var(--one);
-  border: 2px solid #41210a;
+  border: 2px solid #34495e;
   font-weight: bold;
 }
 .home .home-slider .paddingadd {
@@ -223,7 +322,7 @@ mounted() {
 .key-facts-icons {
     padding: 0 1.25rem 1.875rem;
 background: linear-gradient( 
-85deg,#e8ab83,#8c5c37);
+85deg,#8ccc7d,#34495e);
     text-align: center;
     direction: rtl;
     margin-bottom: 45px;
@@ -271,4 +370,90 @@ font-size: 10px;
     border: 2px solid #fff;
 }
 
+
+/* news */
+
+.about_h1 {
+   color: #34495e ;
+   font-family: var(--cairo);
+   font-weight: bold;
+   font-size: 2.3rem;
+   text-align: center;
+   padding-bottom: 30px;
+    padding-bottom: 22px;
+    width: 200px;
+    position: relative;
+}
+
+
+
+
+.nr-list__item {
+    border: 1px solid #e9e9e9;
+    border-width: 1px 0 0;
+    list-style-type: none;
+    padding: 20px 0;
+    display: flex;
+}
+
+
+.nr-list__thumbnail {
+margin-left: 20px;
+    margin-bottom: 0;
+    width: 133px;
+    height: 75px;
+    -ms-flex: 0 0 133px;
+    flex: 0 0 195px;
+    line-height: 75px;
+}
+
+.nr-list__thumbnail {
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nr-list__info-title {
+    color: #34495e !important;
+}
+
+.nr-list__item p {
+        font-weight: bold !important;
+
+  color: #34495e !important;
+}
+
+.btn-primary {
+padding: 10px 20px 10px 20px !important;
+background-color:  #34495e;
+ border: none;
+
+}
+
+.btn-primary:hover {
+  background-color:  #fff;
+ border: 2px solid #34495e ;
+ color: #34495e;
+ font-weight: bold;
+
+
+}
+
+@media(max-width:1100px){
+
+  .nr-list__thumbnail[data-v-57ca938a] {
+    margin-left: 20px;
+    margin-bottom: 0;
+    width: none; 
+    height: none;
+    flex: none;
+    line-height: none;
+}
+.nr-list__info-title{
+
+  display: none;
+
+}
+}
 </style>

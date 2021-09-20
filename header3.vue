@@ -197,14 +197,14 @@
     font-size: 25px;    
 "></i>  -->
 
-                                <i class="fas fa-search"  style="color: #41210a;
+                                <i class="fas fa-search"  style="color: #34495e;
     font-size: 19px;
     padding-right: 15px;padding-left: 10px;
 "></i>
 
-    <a   style="color: #41210a ;border-right: 2px solid #41210a;
+    <a   style="color: #34495e ;border-right: 2px solid #34495e;
     font-weight: bold;    padding-right: 10px;
-">عربي</a>
+">English</a>
               
               </div>
         </nav>
@@ -345,7 +345,7 @@ text-align: end;
 }
 
 .menu {
- background-color:#3a9068;
+ background-color:#34495e;
   height: 103%;
   transition: all 0.3s ease-in-out;
   position: fixed;
@@ -367,12 +367,12 @@ overflow-y: auto;
 }
 
 .nav__link {
-  color: #41210a !important ;
+  color: #34495e !important ;
   font-weight: bold;
 }
 
 .nav__link_scroll {
-    color: #41210a !important;
+    color: #34495e !important;
 
 }
 
@@ -391,7 +391,7 @@ overflow-y: auto;
 
 .nav__logo a {
   font-size: 2.5rem;
-  color: #41210a;
+  color: #34495e;
   padding-left: 3.6rem;
   font-weight: 700;
 }
@@ -549,7 +549,7 @@ display: flex;
 
 .nav-link{
   direction: ltr;
-    color: #41210a ;
+    color: #34495e ;
     font-weight: bold;
 
 }
@@ -598,7 +598,7 @@ transform: translate(93px, 36px) !important;  }
   .dropdown-item:focus {
        border: none;
      box-shadow: none;
-     background-color: #41210a !important;
+     background-color: #596775 !important;
      color: var(--tow) !important;
      
   }
@@ -606,7 +606,7 @@ transform: translate(93px, 36px) !important;  }
   .dropdown-item:hover {
        border: none;
      box-shadow: none;
-     background-color: #41210a !important;
+     background-color: #596775  !important;
      color: var(--tow) !important;
   }
 
@@ -642,15 +642,15 @@ transform: translate(93px, 36px) !important;  }
 }
 
 .lk:hover {
-  color: #41210a !important;
+  color: #34495e !important;
 }
 
 .lk:focus {
-  color:#41210a !important;
+  color:#34495e !important;
 }
 .link_nano:hover {
   background-color: var(--tow) !important;
-    color: #3a9068 !important;
+    color: #34495e !important;
     margin-left: 9px;
 }
 
@@ -662,7 +662,7 @@ transform: translate(93px, 36px) !important;  }
 @media(max-width:800px){
     .dropdown-item:focus {
       background-color: var(--tow) !important;
-    color: #3a9068 !important;
+    color: #34495e !important;
 
   }
 

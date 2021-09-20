@@ -148,7 +148,7 @@ text-align: center;
 }
 
 .footer_color {
-  background-color: #774928;
+  background-color: #34495e;
   font-size: 13px;
   font-family: var(--cairo);
   padding-top: 20px;
@@ -176,7 +176,7 @@ text-align: center;
 .card-text {
   font-size: 13px;
 color: WHITE;
-  background-color: #774928;
+  background-color: #34495e;
   border-radius: 0.5rem;
   cursor: pointer;
   padding: 0.6rem 3rem;
@@ -196,7 +196,7 @@ color: WHITE;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   font-family: var(--cairo);
-  background-color:#774928;
+  background-color:#34495e;
   border-top: 2px solid;
 }
 
